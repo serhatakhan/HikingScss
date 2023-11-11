@@ -1,0 +1,26 @@
+.mybutton{
+    display: inline-block;
+    color: $text-color;
+    background-color: $primary-color;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+
+    &:hover{
+        background-color: $text-color;
+        color: $primary-color;
+        border: 2px solid $primary-color;
+
+    }
+}
+
+.line{
+    background-color: $primary-color;
+    width: 150px;
+    height: 5px;
+    border-radius: 10px;
+    margin: 0 auto; // spesifik blok bir elementi ortalamak istediğimizde ve eğer, 
+    //o elementin sabit bir genişliği varsa buna yatay eksende otomatik bir margin verirsek, 
+    //kendini sağdan ve soldan eşit aralıklarla uzaklaştıracağı için ortalanacak.
+}

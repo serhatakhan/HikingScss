@@ -1,0 +1,30 @@
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/header-bg.png);
+    // kapsayıcıya relative verip içindeki pozisyonlama yapacağımız elemana absolute vererek de yazıları üste getirebilirdik.
+    // bunun dışında ikinci yolda kapsayıcı elemente arka plan resmini vermek. bizde burada bu yolu tercih ettik. 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-content{
+        text-align: center;
+        color: $text-color;
+
+        h1{
+            font-size: 8vmin;
+            margin-top: 50px;
+            margin-bottom: 30px;
+
+        }
+
+        h2{
+            font-size: 5vmin;
+        }
+    }
+
+}

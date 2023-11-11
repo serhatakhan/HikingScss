@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 50px;
+    background-color: $primary-color;
+    color: $text-color;
+    text-align: center;
+    padding: 40px 0;
+
+    p:first-child{
+        margin-bottom: 20px;
+    }
+}

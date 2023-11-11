@@ -1,0 +1,57 @@
+.navbar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 30px 45px;
+    color: $text-color;
+
+    &-links{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        align-items: center;
+
+        li a:hover{
+            color: $text-color;
+            transition: all .3s ease;
+        }
+
+    }
+
+    &-logo{
+        font-size: 4vmin;
+        transition: .3s ease;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
+
+.menu-btn{
+    display: none;
+}
+
+
+@media (max-width:780px) {
+    .navbar-links{
+        display:none;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        width: 35px;
+        height: auto;
+        transition: .3s ease;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
