@@ -6,6 +6,10 @@ Rota Alpine, macera tutkunları için tasarlanmış bir web sitesidir. Bunun yan
 
 Proje, modern web projelerinde daha organize ve yönetilebilir CSS dosyaları oluşturmak için SCSS kullanımını vurgulamaktadır. SCSS, CSS yazarken daha etkin bir şekilde çalışmayı sağlar ve kod tekrarını azaltır.
 
+## Kullanılan Teknolojiler
+
+**SCSS**, CSS3 ve HTML5
+
 ## Ekran Görüntüsü
 
 ![ezgif com-video-to-gif](https://github.com/serhatakhan/HikingScss/assets/147662915/19b12b95-07a5-4f02-9214-462e109fb144)
