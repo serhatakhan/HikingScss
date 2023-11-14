@@ -1,6 +1,6 @@
 ﻿# RotaAlpine SCSS
 
-Bu proje, SCSS (Sassy CSS) preprocessor'ını kullanarak CSS dosyalarını yönetmeyi amaçlamaktadır. Bununla birlikte çeşitli ekranlar için responsive görünüm sağlamaktadır.
+Rota Alpine, macera tutkunları için tasarlanmış bir web sitesidir. Bunun yanı sıra proje, SCSS (Sassy CSS) preprocessor'ını kullanarak CSS dosyalarını yönetmeyi amaçlamaktadır. Ayrıca çeşitli ekranlar için responsive görünüm sağlamaktadır.
 
 ## Proje Hakkında
 
